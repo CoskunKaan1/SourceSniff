@@ -4,7 +4,8 @@
 
 By utilizing an advanced "Inverted Index" architecture, it finds exactly which file and line your search query appears in within milliseconds, rather than scanning the entire project on every search. Thanks to `watchdog` integration, it actively monitors your files for changes in real-time and incrementally updates its index in the background only for the files that were modified.
 
-![SourceSniff UI Preview](https://via.placeholder.com/1000x500.png?text=SourceSniff+Dark+Mode+UI) *(You can add a screenshot of the UI here)*
+![SourceSniff UI Preview]<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/4bdb9c47-e184-4963-9329-ecdd52ad0506" />
+
 
 ## ✨ Features
 
