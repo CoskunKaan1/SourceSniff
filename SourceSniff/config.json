@@ -1,0 +1,57 @@
+{
+  "project_name": "SourceSniff",
+  "version": "0.1.0",
+  "search": {
+    "max_results": 100,
+    "max_file_size_kb": 1024,
+    "supported_extensions": [
+      ".py", ".js", ".ts", ".jsx", ".tsx",
+      ".html", ".css", ".json", ".yaml", ".yml",
+      ".md", ".txt", ".xml", ".sql",
+      ".java", ".c", ".cpp", ".h", ".hpp",
+      ".cs", ".go", ".rs", ".rb", ".php",
+      ".sh", ".bat", ".ps1"
+    ]
+  },
+  "ignore_list": [
+    ".git",
+    ".svn",
+    ".hg",
+    "node_modules",
+    "__pycache__",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    "venv",
+    ".venv",
+    "env",
+    ".env",
+    ".idea",
+    ".vscode",
+    ".vs",
+    "dist",
+    "build",
+    ".next",
+    ".nuxt",
+    "out",
+    ".eggs",
+    "*.egg-info",
+    ".tox",
+    ".cache",
+    "coverage",
+    ".coverage",
+    "htmlcov",
+    ".DS_Store",
+    "Thumbs.db",
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.so",
+    "*.dylib"
+  ],
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000
+  }
+}
